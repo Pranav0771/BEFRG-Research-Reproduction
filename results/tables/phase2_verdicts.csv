@@ -1,0 +1,9 @@
+experiment,paper_claim,ours_test,trend_agreement,verdict,exact_paper_values
+A,BEFRG tracks MILP better as Gamma grows,All discrete MILP objectives equal DP; gaps against continuous MILP generally shrink as Gamma grows,True,Partially reproduced (synthetic only),Could not test
+B,Memoization prevents exponential blowup,No-memo hits call budget; memo completes with matched objectives for completed cases,True,Partially reproduced (synthetic only),Could not test
+C,Route time rises as route length increases,Increasing fixed-route prefixes,True,Partially reproduced (synthetic only),Could not test
+D,More stations reduce best RT,"Nested station sets, fixed tour",True,Partially reproduced (synthetic only),Could not test
+E,Finer charge levels reduce RT,Gamma fixed and nested gamma sets,True,Partially reproduced (synthetic only),Could not test
+F,"Memoized DP scales; 120 in 47 s, up to 1600 in 19 s",Only scaled synthetic prefix 20–320; no original 120 or 1600,True,Partially reproduced (synthetic scaling only),Could not test
+G,DPC RT <= FC RT; DPC takes more CPU,Matched paired FC and DPC on identical synthetic fixed route,True,Partially reproduced (synthetic only),Could not test
+H,Online speed adaptation in SF and Amsterdam,Hourly Normal-flow substitute only; paper traffic nonmonotonicity not reproduced,False,Could not test (SUMO/traces absent),Could not test

@@ -1,0 +1,122 @@
+{
+  "provenance": "[ours-scaled-down] synthetic except paper section 4.1.3 running example",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "cpu": "x86_64",
+    "logical_cpus": 5,
+    "memory_gb": 5.81,
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "clock": "time.perf_counter wall, psutil process cpu; ET includes tracemalloc overhead",
+    "rss": "current process RSS, ru_maxrss historical peak (not per-run peak)"
+  },
+  "A_discrete_MILP_match_count": 17,
+  "A_test_cases": 17,
+  "A_milp_both_certified": 17,
+  "A_running_example_pct_gap": 33.60000000000001,
+  "B_budget_exhausted": 3,
+  "C_rt_first_last": [
+    102.62963441321145,
+    187.96673093990208
+  ],
+  "D_rt_first_last": [
+    303.8201789468781,
+    265.1782359774112
+  ],
+  "E_rt_first_last": [
+    267.56415623737684,
+    248.35627955612424
+  ],
+  "F_wall_first_last": [
+    0.20736642300016683,
+    5.852988575999916
+  ],
+  "F_last_customers": 320,
+  "G_last_fc_dpc": [
+    322.96014150570323,
+    302.1521456674911
+  ],
+  "H_last_static_snapshot": [
+    303.2212923734709,
+    289.6952334161302
+  ],
+  "all_physical_validation_passed": false,
+  "verdicts": [
+    {
+      "experiment": "A",
+      "paper_claim": "BEFRG tracks MILP better as Gamma grows",
+      "ours_test": "All discrete MILP objectives equal DP; gaps against continuous MILP generally shrink as Gamma grows",
+      "trend_agreement": true,
+      "verdict": "Partially reproduced (synthetic only)",
+      "exact_paper_values": "Could not test"
+    },
+    {
+      "experiment": "B",
+      "paper_claim": "Memoization prevents exponential blowup",
+      "ours_test": "No-memo hits call budget; memo completes with matched objectives for completed cases",
+      "trend_agreement": true,
+      "verdict": "Partially reproduced (synthetic only)",
+      "exact_paper_values": "Could not test"
+    },
+    {
+      "experiment": "C",
+      "paper_claim": "Route time rises as route length increases",
+      "ours_test": "Increasing fixed-route prefixes",
+      "trend_agreement": true,
+      "verdict": "Partially reproduced (synthetic only)",
+      "exact_paper_values": "Could not test"
+    },
+    {
+      "experiment": "D",
+      "paper_claim": "More stations reduce best RT",
+      "ours_test": "Nested station sets, fixed tour",
+      "trend_agreement": true,
+      "verdict": "Partially reproduced (synthetic only)",
+      "exact_paper_values": "Could not test"
+    },
+    {
+      "experiment": "E",
+      "paper_claim": "Finer charge levels reduce RT",
+      "ours_test": "Gamma fixed and nested gamma sets",
+      "trend_agreement": true,
+      "verdict": "Partially reproduced (synthetic only)",
+      "exact_paper_values": "Could not test"
+    },
+    {
+      "experiment": "F",
+      "paper_claim": "Memoized DP scales; 120 in 47 s, up to 1600 in 19 s",
+      "ours_test": "Only scaled synthetic prefix 20\u2013320; no original 120 or 1600",
+      "trend_agreement": true,
+      "verdict": "Partially reproduced (synthetic scaling only)",
+      "exact_paper_values": "Could not test"
+    },
+    {
+      "experiment": "G",
+      "paper_claim": "DPC RT <= FC RT; DPC takes more CPU",
+      "ours_test": "Matched paired FC and DPC on identical synthetic fixed route",
+      "trend_agreement": true,
+      "verdict": "Partially reproduced (synthetic only)",
+      "exact_paper_values": "Could not test"
+    },
+    {
+      "experiment": "H",
+      "paper_claim": "Online speed adaptation in SF and Amsterdam",
+      "ours_test": "Hourly Normal-flow substitute only; paper traffic nonmonotonicity not reproduced",
+      "trend_agreement": false,
+      "verdict": "Could not test (SUMO/traces absent)",
+      "exact_paper_values": "Could not test"
+    }
+  ],
+  "limits": [
+    "No original benchmark files available",
+    "No CRAWDAD/OSM/SUMO replay",
+    "Measured ET includes tracemalloc instrumentation and varies with CPU load",
+    "Python heap peak is not whole-process RSS; maxrss is historical process peak"
+  ],
+  "paper_citation": "https://doi.org/10.1145/3762188",
+  "config_sha256": "2612e62bb2573fa145f4658e99828645faf978d202c26b7b21705584814917ef",
+  "code_provenance": "independent implementation; not authors code",
+  "benchmark_source_installed": false,
+  "SUMO_run": false
+}

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this independent research implementation, cite this repository and the original paper."
+type: software
+title: "BEFRG Independent Reproduction and Extensions"
+version: 0.6.0
+license: MIT
+authors:
+  - given-names: "Vedant"
+    family-names: "Pimparwar"
+date-released: 2026-10-28
+keywords:
+  - electric vehicle logistics
+  - dynamic programming
+  - partial charging
+  - reproducibility
+  - battery temperature
+references:
+  - type: article
+    title: "A Discrete Partial Charging Enabled Dynamic Programming Strategy for Optimal Fixed-Route Electric Vehicle Charging"
+    authors:
+      - given-names: Dipankar
+        family-names: Mandal
+      - given-names: Arnab
+        family-names: Sarkar
+      - given-names: Arijit
+        family-names: Mondal
+    doi: "10.1145/3762188"
+    year: 2025

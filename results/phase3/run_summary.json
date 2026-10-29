@@ -1,0 +1,14 @@
+{
+  "origin": "ours-scaled-down",
+  "data": "deterministic synthetic, no Montoya/CRAWDAD",
+  "config": "/mnt/data/frvcp_phase3/configs/phase3.yaml",
+  "python": "3.13.5",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "grid_runs": 48,
+  "thermal_ablations": 30,
+  "sensitivity_runs": 23,
+  "milp_certified": 48,
+  "physically_valid_grid": 48,
+  "physically_valid_thermal": 30,
+  "physically_valid_sensitivity": 23
+}

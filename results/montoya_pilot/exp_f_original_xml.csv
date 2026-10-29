@@ -1,0 +1,6 @@
+experiment,provenance,dataset,customers,gamma,Gamma,stations,model_route_min,wall_s,cpu_s,detours,charged_kwh,final_physical_soc_kwh,physically_valid,physical_error_count,physical_error_examples,model_kwh_per_km_at_first_leg
+F,[original-XML; independent-tour],tc2c320s38cf0,40,16,16,38,579.405339843,0.30667,0.30634,5,44.7403226,2.0830119,True,0,,0.13
+F,[original-XML; independent-tour],tc2c320s38cf0,80,16,16,38,1159.600528064,0.57792,0.57749,10,97.9284401,1.0309621,False,1,Non-increasing physical charge at 340: 7.170350 -> 7.000000,0.135
+F,[original-XML; independent-tour],tc2c320s38cf0,160,16,16,38,2367.12128651,0.92656,0.92614,21,220.9589932,1.019807,False,1,Non-increasing physical charge at 322: 5.993553 -> 5.000000,0.145
+F,[original-XML; independent-tour],tc2c320s38cf0,240,16,16,38,3390.120418211,1.45714,1.45666,33,340.6272336,1.835746,False,4,Non-increasing physical charge at 322: 5.391814 -> 5.000000 | Non-increasing physical charge at 358: 8.520188 -> 5.000000 | Non-increasing physical charge at 336: 5.864743 -> 3.000000,0.155
+F,[original-XML; independent-tour],tc2c320s38cf0,320,16,16,38,4636.687282943,1.81055,1.8096,42,477.8096577,5.0391073,False,3,Non-increasing physical charge at 322: 5.790076 -> 5.000000 | Non-increasing physical charge at 358: 8.039218 -> 5.000000 | Non-increasing physical charge at 336: 5.234848 -> 5.000000,0.165

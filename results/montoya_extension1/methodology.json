@@ -1,0 +1,21 @@
+{
+  "input_source": "original Montoya et al. (2017) VRP-REP XML files, user-provided",
+  "data_sha256": {
+    "tc1c320s38ct2": "ebd88b7ed9bddc08f3d476e8236c73e85c3025b7fcb060f707532538466a67b7",
+    "tc2c320s38cf0": "ef7f84a81197389ffe0f6473c34d24444842a2849da69e434460999f1ad96854"
+  },
+  "route_construction": "independent deterministic cheapest insertion on all 320; then use prefixes",
+  "paper_route_matched": false,
+  "paper_calibration_matched": false,
+  "distance": "original XML coordinates with Euclidean distance (metric)",
+  "gamma": "set separately per experiment; discrete station targets only",
+  "Gamma": "residual levels of original BEFRG; physical solver does not round SoC",
+  "energy_calibration": "veh_mass=1000kg, theta=source_nominal_kwhkm/1000; synthetic unit customer loads",
+  "exactness": "only finite-target model, Euclidean dominance, no beam pruning, 11-decimal SoC key",
+  "physical_validation": "independent route/charge replay, strict SoC>0 at customer nodes",
+  "provenance": "[original-XML; independent-tour; our-model]",
+  "python": "3.13.5",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "runtime_note": "local wall times exclude tour construction; vary across hardware",
+  "thermal_note": "illustrative coefficients, not measured Montoya battery behavior"
+}

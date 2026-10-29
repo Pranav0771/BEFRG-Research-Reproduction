@@ -1,0 +1,7 @@
+vehicles,scenario,source,provenance,mean_flow_percent,flow_sd_percent,static_realized_min,snapshot_realized_min,static_detours,snapshot_detours,static_feasible,snapshot_feasible,static_final_soc,snapshot_final_soc
+500,stochastic_hourly_SUBSTITUTE,synthetic-surrogate,[ours-scaled-down],70,10,195.6167708778903,195.6167708778903,2,2,True,True,3.0004538427226795,3.0004538427226795
+1000,stochastic_hourly_SUBSTITUTE,synthetic-surrogate,[ours-scaled-down],70,10,216.7462236863541,216.7462236863541,2,2,True,True,3.0004538427226795,3.0004538427226795
+1500,stochastic_hourly_SUBSTITUTE,synthetic-surrogate,[ours-scaled-down],70,10,237.31112158318302,237.31112158318302,2,2,True,True,3.0004538427226795,3.0004538427226795
+2000,stochastic_hourly_SUBSTITUTE,synthetic-surrogate,[ours-scaled-down],70,10,258.74545631221247,248.20239117182624,2,2,True,True,3.0004538427226795,2.3168982485314884
+2500,stochastic_hourly_SUBSTITUTE,synthetic-surrogate,[ours-scaled-down],70,10,279.05406539360854,267.89976117113116,2,2,True,True,3.0004538427226795,2.3168982485314884
+3000,stochastic_hourly_SUBSTITUTE,synthetic-surrogate,[ours-scaled-down],70,10,303.2212923734709,289.6952334161302,2,2,True,True,3.0004538427226795,2.3168982485314884

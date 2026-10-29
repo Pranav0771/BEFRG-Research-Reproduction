@@ -1,0 +1,21 @@
+# Phase 3 synthetic-only extensions; not paper-reproduced and not fitted to cells.
+seed: 20251028
+source: synthetic-surrogate
+residual_levels: [4, 8, 16, 32]
+charging_levels: [2, 4, 8, 16]
+small_customers: 5
+small_stations: 3
+grid_theta: 0.00033
+thermal_customers: 7
+thermal_stations: 4
+theta: 0.00018
+vehicle_mass_kg: 1000
+thermal:
+  temperatures_c: [-10, 0, 10, 25, 35, 45]
+  degradation_weights_min: [0, 2, 8, 20, 50]
+  degradation_beta: 1.4
+  alpha_cold: 0.00045
+  alpha_hot: 0.00012
+  heat_kw_per_c: 0.16
+  cool_kw_per_c: 0.12
+milp_time_limit_sec: 10

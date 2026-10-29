@@ -1,0 +1,6 @@
+experiment,paper_reference,setting,metric,paper_value,paper_unit,paper_provenance,ours_value,ours_provenance,abs_diff,relative_diff_pct,trend_agreement,comparability
+D,Table 5a,JC=15,RT,5761,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+D,Table 5a,JC=20,RT,5508,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+D,Table 5a,JC=25,RT,5145,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+D,Table 5a,JC=30,RT,4871,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+D,Table 5a,JC=35,RT,4692,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable

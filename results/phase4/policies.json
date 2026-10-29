@@ -1,0 +1,1624 @@
+[
+  {
+    "scenario": "last_mile",
+    "variant": "mixed_ac_dc",
+    "visits": [
+      {
+        "node": "last_mile_depot",
+        "soc_kwh": 10.24,
+        "event": "initial",
+        "elapsed_min": 0.0
+      },
+      {
+        "node": "last_mile_v1",
+        "soc_kwh": 7.551437486420843,
+        "event": "node_arrival_model",
+        "elapsed_min": 36.05551275463989
+      },
+      {
+        "node": "last_mile_v2",
+        "soc_kwh": 5.021219501535844,
+        "event": "node_arrival_model",
+        "elapsed_min": 71.49560304797859
+      },
+      {
+        "node": "last_mile_dc_25kw",
+        "soc_kwh": 3.2422294605776596,
+        "event": "station_arrival_model",
+        "elapsed_min": 97.57241266878918
+      },
+      {
+        "node": "last_mile_dc_25kw",
+        "soc_kwh": 8.192,
+        "event": "station_departure_model",
+        "elapsed_min": 109.4518619634028
+      },
+      {
+        "node": "last_mile_v3",
+        "soc_kwh": 7.8060828759601115,
+        "event": "node_arrival_model",
+        "elapsed_min": 115.10871621289519
+      },
+      {
+        "node": "last_mile_v4",
+        "soc_kwh": 5.608637058356916,
+        "event": "node_arrival_model",
+        "elapsed_min": 149.167488944748
+      },
+      {
+        "node": "last_mile_v5",
+        "soc_kwh": 3.484379824350683,
+        "event": "node_arrival_model",
+        "elapsed_min": 184.09598733789394
+      },
+      {
+        "node": "last_mile_v6",
+        "soc_kwh": 1.367965003093731,
+        "event": "node_arrival_model",
+        "elapsed_min": 220.8111068392656
+      },
+      {
+        "node": "last_mile_depot",
+        "soc_kwh": 0.043389599426578274,
+        "event": "node_arrival_model",
+        "elapsed_min": 244.8942959968502
+      }
+    ],
+    "actions": [
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 14
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 9
+      },
+      {
+        "kind": "detour",
+        "station_index": 1,
+        "charge_level": 4,
+        "next_b": 15
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 10
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 6
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 2
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 0
+      }
+    ]
+  },
+  {
+    "scenario": "last_mile",
+    "variant": "ac_only",
+    "visits": [
+      {
+        "node": "last_mile_depot",
+        "soc_kwh": 10.24,
+        "event": "initial",
+        "elapsed_min": 0.0
+      },
+      {
+        "node": "last_mile_ac_3kw",
+        "soc_kwh": 7.687226583256217,
+        "event": "station_arrival_model",
+        "elapsed_min": 34.23448553724738
+      },
+      {
+        "node": "last_mile_ac_3kw",
+        "soc_kwh": 10.24,
+        "event": "station_departure_model",
+        "elapsed_min": 102.29218402349797
+      },
+      {
+        "node": "last_mile_v1",
+        "soc_kwh": 10.029091804303782,
+        "event": "node_arrival_model",
+        "elapsed_min": 105.12061114824417
+      },
+      {
+        "node": "last_mile_v2",
+        "soc_kwh": 7.498873819418783,
+        "event": "node_arrival_model",
+        "elapsed_min": 140.56070144158286
+      },
+      {
+        "node": "last_mile_v3",
+        "soc_kwh": 5.411707851210659,
+        "event": "node_arrival_model",
+        "elapsed_min": 171.15481852313957
+      },
+      {
+        "node": "last_mile_v4",
+        "soc_kwh": 3.2142620336074637,
+        "event": "node_arrival_model",
+        "elapsed_min": 205.21359125499237
+      },
+      {
+        "node": "last_mile_v5",
+        "soc_kwh": 1.090004799601231,
+        "event": "node_arrival_model",
+        "elapsed_min": 240.14208964813832
+      },
+      {
+        "node": "last_mile_ac_3kw_b",
+        "soc_kwh": 0.9747163380627695,
+        "event": "station_arrival_model",
+        "elapsed_min": 242.14208964813832
+      },
+      {
+        "node": "last_mile_ac_3kw_b",
+        "soc_kwh": 4.096,
+        "event": "station_departure_model",
+        "elapsed_min": 298.89270168336066
+      },
+      {
+        "node": "last_mile_v6",
+        "soc_kwh": 2.0792755802155245,
+        "event": "node_arrival_model",
+        "elapsed_min": 333.8784130524325
+      },
+      {
+        "node": "last_mile_depot",
+        "soc_kwh": 0.7547001765483718,
+        "event": "node_arrival_model",
+        "elapsed_min": 357.9616022100171
+      }
+    ],
+    "actions": [
+      {
+        "kind": "detour",
+        "station_index": 0,
+        "charge_level": 5,
+        "next_b": 19
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 14
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 10
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 6
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 2
+      },
+      {
+        "kind": "detour",
+        "station_index": 1,
+        "charge_level": 2,
+        "next_b": 4
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 1
+      }
+    ]
+  },
+  {
+    "scenario": "last_mile",
+    "variant": "cold_mixed",
+    "visits": [
+      {
+        "node": "last_mile_depot",
+        "soc_kwh": 7.36,
+        "event": "initial",
+        "elapsed_min": 0.0
+      },
+      {
+        "node": "last_mile_ac_3kw",
+        "soc_kwh": 4.633771856534164,
+        "event": "station_arrival_model",
+        "elapsed_min": 34.23448553724738
+      },
+      {
+        "node": "last_mile_ac_3kw",
+        "soc_kwh": 5.888,
+        "event": "station_departure_model",
+        "elapsed_min": 65.96199588579026
+      },
+      {
+        "node": "last_mile_v1",
+        "soc_kwh": 5.662761106871734,
+        "event": "node_arrival_model",
+        "elapsed_min": 68.79042301053646
+      },
+      {
+        "node": "last_mile_v2",
+        "soc_kwh": 2.9529799978338196,
+        "event": "node_arrival_model",
+        "elapsed_min": 104.23051330387516
+      },
+      {
+        "node": "last_mile_dc_25kw",
+        "soc_kwh": 1.0418674547968614,
+        "event": "station_arrival_model",
+        "elapsed_min": 130.30732292468576
+      },
+      {
+        "node": "last_mile_dc_25kw",
+        "soc_kwh": 4.416,
+        "event": "station_departure_model",
+        "elapsed_min": 141.57399159736406
+      },
+      {
+        "node": "last_mile_v3",
+        "soc_kwh": 4.001421481096017,
+        "event": "node_arrival_model",
+        "elapsed_min": 147.23084584685643
+      },
+      {
+        "node": "last_mile_dc_25kw",
+        "soc_kwh": 3.6077842014810195,
+        "event": "station_arrival_model",
+        "elapsed_min": 152.8877000963488
+      },
+      {
+        "node": "last_mile_dc_25kw",
+        "soc_kwh": 7.360000000000001,
+        "event": "station_departure_model",
+        "elapsed_min": 170.74163806705565
+      },
+      {
+        "node": "last_mile_v4",
+        "soc_kwh": 4.989989733888752,
+        "event": "node_arrival_model",
+        "elapsed_min": 204.80041079890847
+      },
+      {
+        "node": "last_mile_ac_3kw_b",
+        "soc_kwh": 2.6550557337226888,
+        "event": "station_arrival_model",
+        "elapsed_min": 240.24050109224717
+      },
+      {
+        "node": "last_mile_ac_3kw_b",
+        "soc_kwh": 4.416,
+        "event": "station_departure_model",
+        "elapsed_min": 284.78612680044796
+      },
+      {
+        "node": "last_mile_v5",
+        "soc_kwh": 4.284232051282052,
+        "event": "node_arrival_model",
+        "elapsed_min": 286.78612680044796
+      },
+      {
+        "node": "last_mile_v6",
+        "soc_kwh": 1.981793957884817,
+        "event": "node_arrival_model",
+        "elapsed_min": 323.5012463018196
+      },
+      {
+        "node": "last_mile_depot",
+        "soc_kwh": 0.5351970624859026,
+        "event": "node_arrival_model",
+        "elapsed_min": 347.5844354594042
+      }
+    ],
+    "actions": [
+      {
+        "kind": "detour",
+        "station_index": 0,
+        "charge_level": 4,
+        "next_b": 15
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 8
+      },
+      {
+        "kind": "detour",
+        "station_index": 1,
+        "charge_level": 3,
+        "next_b": 10
+      },
+      {
+        "kind": "detour",
+        "station_index": 1,
+        "charge_level": 5,
+        "next_b": 13
+      },
+      {
+        "kind": "detour",
+        "station_index": 2,
+        "charge_level": 3,
+        "next_b": 11
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 5
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 1
+      }
+    ]
+  },
+  {
+    "scenario": "coach",
+    "variant": "all_roadside",
+    "visits": [
+      {
+        "node": "coach_depot",
+        "soc_kwh": 220.0,
+        "event": "initial",
+        "elapsed_min": 0.0
+      },
+      {
+        "node": "coach_v1",
+        "soc_kwh": 155.4359233009563,
+        "event": "node_arrival_model",
+        "elapsed_min": 63.798494761900905
+      },
+      {
+        "node": "coach_dc_150a",
+        "soc_kwh": 90.42765305785568,
+        "event": "station_arrival_model",
+        "elapsed_min": 128.0359159507355
+      },
+      {
+        "node": "coach_dc_150a",
+        "soc_kwh": 176.0,
+        "event": "station_departure_model",
+        "elapsed_min": 162.26485472759322
+      },
+      {
+        "node": "coach_v2",
+        "soc_kwh": 173.3978470452335,
+        "event": "node_arrival_model",
+        "elapsed_min": 164.83615211372614
+      },
+      {
+        "node": "coach_dc_90",
+        "soc_kwh": 103.18189444185427,
+        "event": "station_arrival_model",
+        "elapsed_min": 234.2195044886068
+      },
+      {
+        "node": "coach_dc_90",
+        "soc_kwh": 176.0,
+        "event": "station_departure_model",
+        "elapsed_min": 282.7649081940373
+      },
+      {
+        "node": "coach_v3",
+        "soc_kwh": 171.30890204749463,
+        "event": "node_arrival_model",
+        "elapsed_min": 287.4003804791216
+      },
+      {
+        "node": "coach_v4",
+        "soc_kwh": 95.44375853612966,
+        "event": "node_arrival_model",
+        "elapsed_min": 362.3659373085336
+      },
+      {
+        "node": "coach_v5",
+        "soc_kwh": 21.270987251783012,
+        "event": "node_arrival_model",
+        "elapsed_min": 435.6591895657931
+      },
+      {
+        "node": "coach_dc_150b",
+        "soc_kwh": 19.430987251783012,
+        "event": "station_arrival_model",
+        "elapsed_min": 437.4773713839749
+      },
+      {
+        "node": "coach_dc_150b",
+        "soc_kwh": 132.0,
+        "event": "station_departure_model",
+        "elapsed_min": 482.5049764832617
+      },
+      {
+        "node": "coach_v6",
+        "soc_kwh": 62.639077284107586,
+        "event": "node_arrival_model",
+        "elapsed_min": 551.0434376649736
+      },
+      {
+        "node": "coach_depot",
+        "soc_kwh": 0.7524066675685148,
+        "event": "node_arrival_model",
+        "elapsed_min": 612.1962742425814
+      }
+    ],
+    "actions": [
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 14
+      },
+      {
+        "kind": "detour",
+        "station_index": 0,
+        "charge_level": 4,
+        "next_b": 15
+      },
+      {
+        "kind": "detour",
+        "station_index": 1,
+        "charge_level": 4,
+        "next_b": 15
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 8
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 1
+      },
+      {
+        "kind": "detour",
+        "station_index": 2,
+        "charge_level": 3,
+        "next_b": 5
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 0
+      }
+    ]
+  },
+  {
+    "scenario": "coach",
+    "variant": "one_fast_closed",
+    "visits": [
+      {
+        "node": "coach_depot",
+        "soc_kwh": 220.0,
+        "event": "initial",
+        "elapsed_min": 0.0
+      },
+      {
+        "node": "coach_v1",
+        "soc_kwh": 155.4359233009563,
+        "event": "node_arrival_model",
+        "elapsed_min": 63.798494761900905
+      },
+      {
+        "node": "coach_v2",
+        "soc_kwh": 87.94904753981292,
+        "event": "node_arrival_model",
+        "elapsed_min": 130.48513088951293
+      },
+      {
+        "node": "coach_dc_90",
+        "soc_kwh": 17.733094936433687,
+        "event": "station_arrival_model",
+        "elapsed_min": 199.8684832643936
+      },
+      {
+        "node": "coach_dc_90",
+        "soc_kwh": 176.0,
+        "event": "station_departure_model",
+        "elapsed_min": 305.37975330677114
+      },
+      {
+        "node": "coach_v3",
+        "soc_kwh": 171.30890204749463,
+        "event": "node_arrival_model",
+        "elapsed_min": 310.0152255918555
+      },
+      {
+        "node": "coach_v4",
+        "soc_kwh": 95.44375853612966,
+        "event": "node_arrival_model",
+        "elapsed_min": 384.98078242126746
+      },
+      {
+        "node": "coach_v5",
+        "soc_kwh": 21.270987251783012,
+        "event": "node_arrival_model",
+        "elapsed_min": 458.27403467852696
+      },
+      {
+        "node": "coach_dc_150b",
+        "soc_kwh": 19.430987251783012,
+        "event": "station_arrival_model",
+        "elapsed_min": 460.0922164967088
+      },
+      {
+        "node": "coach_dc_150b",
+        "soc_kwh": 132.0,
+        "event": "station_departure_model",
+        "elapsed_min": 505.1198215959956
+      },
+      {
+        "node": "coach_v6",
+        "soc_kwh": 62.639077284107586,
+        "event": "node_arrival_model",
+        "elapsed_min": 573.6582827777074
+      },
+      {
+        "node": "coach_depot",
+        "soc_kwh": 0.7524066675685148,
+        "event": "node_arrival_model",
+        "elapsed_min": 634.8111193553152
+      }
+    ],
+    "actions": [
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 14
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 7
+      },
+      {
+        "kind": "detour",
+        "station_index": 0,
+        "charge_level": 4,
+        "next_b": 15
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 8
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 1
+      },
+      {
+        "kind": "detour",
+        "station_index": 1,
+        "charge_level": 3,
+        "next_b": 5
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 0
+      }
+    ]
+  },
+  {
+    "scenario": "coach",
+    "variant": "hot_weather",
+    "visits": [
+      {
+        "node": "coach_depot",
+        "soc_kwh": 214.06,
+        "event": "initial",
+        "elapsed_min": 0.0
+      },
+      {
+        "node": "coach_v1",
+        "soc_kwh": 147.83716243714684,
+        "event": "node_arrival_model",
+        "elapsed_min": 63.798494761900905
+      },
+      {
+        "node": "coach_dc_150a",
+        "soc_kwh": 81.15871924313653,
+        "event": "station_arrival_model",
+        "elapsed_min": 128.0359159507355
+      },
+      {
+        "node": "coach_dc_150a",
+        "soc_kwh": 171.248,
+        "event": "station_departure_model",
+        "elapsed_min": 165.07159149312542
+      },
+      {
+        "node": "coach_v2",
+        "soc_kwh": 168.57899331319405,
+        "event": "node_arrival_model",
+        "elapsed_min": 167.64288887925832
+      },
+      {
+        "node": "coach_dc_90",
+        "soc_kwh": 96.55907354806791,
+        "event": "station_arrival_model",
+        "elapsed_min": 237.026241254139
+      },
+      {
+        "node": "coach_dc_90",
+        "soc_kwh": 171.248,
+        "event": "station_departure_model",
+        "elapsed_min": 288.20056564737786
+      },
+      {
+        "node": "coach_v3",
+        "soc_kwh": 166.43637976808245,
+        "event": "node_arrival_model",
+        "elapsed_min": 292.8360379324622
+      },
+      {
+        "node": "coach_v4",
+        "soc_kwh": 88.62213177915277,
+        "event": "node_arrival_model",
+        "elapsed_min": 367.8015947618742
+      },
+      {
+        "node": "coach_dc_150b",
+        "soc_kwh": 13.46222106531279,
+        "event": "station_arrival_model",
+        "elapsed_min": 440.2099865863828
+      },
+      {
+        "node": "coach_dc_150b",
+        "soc_kwh": 171.248,
+        "event": "station_departure_model",
+        "elapsed_min": 505.0756716571689
+      },
+      {
+        "node": "coach_v5",
+        "soc_kwh": 169.36072727272727,
+        "event": "node_arrival_model",
+        "elapsed_min": 506.8938534753508
+      },
+      {
+        "node": "coach_v6",
+        "soc_kwh": 97.49552287375693,
+        "event": "node_arrival_model",
+        "elapsed_min": 576.1281544377499
+      },
+      {
+        "node": "coach_depot",
+        "soc_kwh": 34.018878506200046,
+        "event": "node_arrival_model",
+        "elapsed_min": 637.2809910153577
+      }
+    ],
+    "actions": [
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 13
+      },
+      {
+        "kind": "detour",
+        "station_index": 0,
+        "charge_level": 4,
+        "next_b": 15
+      },
+      {
+        "kind": "detour",
+        "station_index": 1,
+        "charge_level": 4,
+        "next_b": 15
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 8
+      },
+      {
+        "kind": "detour",
+        "station_index": 2,
+        "charge_level": 4,
+        "next_b": 15
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 9
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 3
+      }
+    ]
+  },
+  {
+    "scenario": "truck",
+    "variant": "loaded",
+    "visits": [
+      {
+        "node": "truck_depot",
+        "soc_kwh": 420.0,
+        "event": "initial",
+        "elapsed_min": 0.0
+      },
+      {
+        "node": "truck_v1",
+        "soc_kwh": 290.71500000000003,
+        "event": "node_arrival_model",
+        "elapsed_min": 94.73684210526316
+      },
+      {
+        "node": "truck_dc_250a",
+        "soc_kwh": 165.4674885476761,
+        "event": "station_arrival_model",
+        "elapsed_min": 191.78467849781987
+      },
+      {
+        "node": "truck_dc_250a",
+        "soc_kwh": 336.0,
+        "event": "station_departure_model",
+        "elapsed_min": 232.7124812463776
+      },
+      {
+        "node": "truck_v2",
+        "soc_kwh": 329.2075,
+        "event": "node_arrival_model",
+        "elapsed_min": 237.97563914111444
+      },
+      {
+        "node": "truck_v3",
+        "soc_kwh": 210.13668532969547,
+        "event": "node_arrival_model",
+        "elapsed_min": 336.8613982361457
+      },
+      {
+        "node": "truck_dc_180",
+        "soc_kwh": 101.54183136322061,
+        "event": "station_arrival_model",
+        "elapsed_min": 431.4109206482957
+      },
+      {
+        "node": "truck_dc_180",
+        "soc_kwh": 168.0,
+        "event": "station_departure_model",
+        "elapsed_min": 453.56364352722215
+      },
+      {
+        "node": "truck_v4",
+        "soc_kwh": 164.58043160618186,
+        "event": "node_arrival_model",
+        "elapsed_min": 456.5409352374813
+      },
+      {
+        "node": "truck_dc_250b",
+        "soc_kwh": 37.710906295727554,
+        "event": "station_arrival_model",
+        "elapsed_min": 571.3212263830305
+      },
+      {
+        "node": "truck_dc_250b",
+        "soc_kwh": 252.0,
+        "event": "station_departure_model",
+        "elapsed_min": 622.7506088720559
+      },
+      {
+        "node": "truck_v5",
+        "soc_kwh": 249.39833490817898,
+        "event": "node_arrival_model",
+        "elapsed_min": 625.1043646378452
+      },
+      {
+        "node": "truck_v6",
+        "soc_kwh": 145.80211876106287,
+        "event": "node_arrival_model",
+        "elapsed_min": 724.9657644326361
+      },
+      {
+        "node": "truck_depot",
+        "soc_kwh": 56.79245636421969,
+        "event": "node_arrival_model",
+        "elapsed_min": 815.056515846445
+      }
+    ],
+    "actions": [
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 13
+      },
+      {
+        "kind": "detour",
+        "station_index": 0,
+        "charge_level": 4,
+        "next_b": 15
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 10
+      },
+      {
+        "kind": "detour",
+        "station_index": 1,
+        "charge_level": 2,
+        "next_b": 7
+      },
+      {
+        "kind": "detour",
+        "station_index": 2,
+        "charge_level": 3,
+        "next_b": 11
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 6
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 2
+      }
+    ]
+  },
+  {
+    "scenario": "truck",
+    "variant": "empty_payload_control",
+    "visits": [
+      {
+        "node": "truck_depot",
+        "soc_kwh": 420.0,
+        "event": "initial",
+        "elapsed_min": 0.0
+      },
+      {
+        "node": "truck_v1",
+        "soc_kwh": 326.4,
+        "event": "node_arrival_model",
+        "elapsed_min": 94.73684210526316
+      },
+      {
+        "node": "truck_dc_250a",
+        "soc_kwh": 230.51673764415392,
+        "event": "station_arrival_model",
+        "elapsed_min": 191.78467849781987
+      },
+      {
+        "node": "truck_dc_250a",
+        "soc_kwh": 336.0,
+        "event": "station_departure_model",
+        "elapsed_min": 217.10066146322293
+      },
+      {
+        "node": "truck_v2",
+        "soc_kwh": 330.8,
+        "event": "node_arrival_model",
+        "elapsed_min": 222.36381935795978
+      },
+      {
+        "node": "truck_v3",
+        "soc_kwh": 233.10087001410915,
+        "event": "node_arrival_model",
+        "elapsed_min": 321.24957845299105
+      },
+      {
+        "node": "truck_v4",
+        "soc_kwh": 137.2176076582631,
+        "event": "node_arrival_model",
+        "elapsed_min": 418.2974148455478
+      },
+      {
+        "node": "truck_dc_250b",
+        "soc_kwh": 23.814680006460378,
+        "event": "station_arrival_model",
+        "elapsed_min": 533.0777059910971
+      },
+      {
+        "node": "truck_dc_250b",
+        "soc_kwh": 252.0,
+        "event": "station_departure_model",
+        "elapsed_min": 587.8421827895467
+      },
+      {
+        "node": "truck_v5",
+        "soc_kwh": 249.6744893034002,
+        "event": "node_arrival_model",
+        "elapsed_min": 590.1959385553359
+      },
+      {
+        "node": "truck_v6",
+        "soc_kwh": 151.01142630614677,
+        "event": "node_arrival_model",
+        "elapsed_min": 690.0573383501269
+      },
+      {
+        "node": "truck_depot",
+        "soc_kwh": 62.00176390930359,
+        "event": "node_arrival_model",
+        "elapsed_min": 780.1480897639358
+      }
+    ],
+    "actions": [
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 15
+      },
+      {
+        "kind": "detour",
+        "station_index": 0,
+        "charge_level": 4,
+        "next_b": 15
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 11
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 6
+      },
+      {
+        "kind": "detour",
+        "station_index": 2,
+        "charge_level": 3,
+        "next_b": 11
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 7
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 2
+      }
+    ]
+  },
+  {
+    "scenario": "truck",
+    "variant": "cold_loaded",
+    "visits": [
+      {
+        "node": "truck_depot",
+        "soc_kwh": 301.875,
+        "event": "initial",
+        "elapsed_min": 0.0
+      },
+      {
+        "node": "truck_v1",
+        "soc_kwh": 170.79,
+        "event": "node_arrival_model",
+        "elapsed_min": 94.73684210526316
+      },
+      {
+        "node": "truck_dc_250a",
+        "soc_kwh": 43.698579656217504,
+        "event": "station_arrival_model",
+        "elapsed_min": 191.78467849781987
+      },
+      {
+        "node": "truck_dc_250a",
+        "soc_kwh": 241.5,
+        "event": "station_departure_model",
+        "elapsed_min": 257.83315276913504
+      },
+      {
+        "node": "truck_v2",
+        "soc_kwh": 234.6075,
+        "event": "node_arrival_model",
+        "elapsed_min": 263.0963106638719
+      },
+      {
+        "node": "truck_v3",
+        "soc_kwh": 113.65785590688989,
+        "event": "node_arrival_model",
+        "elapsed_min": 361.98206975890315
+      },
+      {
+        "node": "truck_dc_180",
+        "soc_kwh": 3.266561014584184,
+        "event": "station_arrival_model",
+        "elapsed_min": 456.53159217105315
+      },
+      {
+        "node": "truck_dc_180",
+        "soc_kwh": 181.125,
+        "event": "station_departure_model",
+        "elapsed_min": 539.0166653237097
+      },
+      {
+        "node": "truck_v4",
+        "soc_kwh": 177.64886306368692,
+        "event": "node_arrival_model",
+        "elapsed_min": 541.9939570339689
+      },
+      {
+        "node": "truck_dc_250b",
+        "soc_kwh": 48.59851222146716,
+        "event": "station_arrival_model",
+        "elapsed_min": 656.7742481795182
+      },
+      {
+        "node": "truck_dc_250b",
+        "soc_kwh": 241.5,
+        "event": "station_departure_model",
+        "elapsed_min": 721.1865710551326
+      },
+      {
+        "node": "truck_v5",
+        "soc_kwh": 238.853613548629,
+        "event": "node_arrival_model",
+        "elapsed_min": 723.5403268209219
+      },
+      {
+        "node": "truck_v6",
+        "soc_kwh": 133.36003080541187,
+        "event": "node_arrival_model",
+        "elapsed_min": 823.4017266157128
+      },
+      {
+        "node": "truck_depot",
+        "soc_kwh": 42.638644131706315,
+        "event": "node_arrival_model",
+        "elapsed_min": 913.4924780295217
+      }
+    ],
+    "actions": [
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 11
+      },
+      {
+        "kind": "detour",
+        "station_index": 0,
+        "charge_level": 4,
+        "next_b": 15
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 7
+      },
+      {
+        "kind": "detour",
+        "station_index": 1,
+        "charge_level": 3,
+        "next_b": 11
+      },
+      {
+        "kind": "detour",
+        "station_index": 2,
+        "charge_level": 4,
+        "next_b": 15
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 8
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 2
+      }
+    ]
+  },
+  {
+    "scenario": "outage",
+    "variant": "sparse_one",
+    "visits": [
+      {
+        "node": "outage_depot",
+        "soc_kwh": 16.0,
+        "event": "initial",
+        "elapsed_min": 0.0
+      },
+      {
+        "node": "outage_v1",
+        "soc_kwh": 11.775772005589621,
+        "event": "node_arrival_model",
+        "elapsed_min": 29.19025532463119
+      },
+      {
+        "node": "outage_v2",
+        "soc_kwh": 8.188812151934226,
+        "event": "node_arrival_model",
+        "elapsed_min": 55.298813399211404
+      },
+      {
+        "node": "outage_v3",
+        "soc_kwh": 4.609477156678199,
+        "event": "node_arrival_model",
+        "elapsed_min": 82.81965004536266
+      },
+      {
+        "node": "outage_ac_slow",
+        "soc_kwh": 1.0619056010716381,
+        "event": "station_arrival_model",
+        "elapsed_min": 111.72471808852563
+      },
+      {
+        "node": "outage_ac_slow",
+        "soc_kwh": 16.0,
+        "event": "station_departure_model",
+        "elapsed_min": 200.41519008316743
+      },
+      {
+        "node": "outage_v4",
+        "soc_kwh": 9.610798944784495,
+        "event": "node_arrival_model",
+        "elapsed_min": 252.4734187468248
+      },
+      {
+        "node": "outage_v5",
+        "soc_kwh": 5.836130804371628,
+        "event": "node_arrival_model",
+        "elapsed_min": 285.18155970908526
+      },
+      {
+        "node": "outage_v6",
+        "soc_kwh": 3.155063636801074,
+        "event": "node_arrival_model",
+        "elapsed_min": 309.98850662692695
+      },
+      {
+        "node": "outage_depot",
+        "soc_kwh": 0.5064224757526392,
+        "event": "node_arrival_model",
+        "elapsed_min": 336.27774892021165
+      }
+    ],
+    "actions": [
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 17
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 12
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 6
+      },
+      {
+        "kind": "detour",
+        "station_index": 0,
+        "charge_level": 6,
+        "next_b": 14
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 8
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 4
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 0
+      }
+    ]
+  },
+  {
+    "scenario": "outage",
+    "variant": "medium_two",
+    "visits": [
+      {
+        "node": "outage_depot",
+        "soc_kwh": 16.0,
+        "event": "initial",
+        "elapsed_min": 0.0
+      },
+      {
+        "node": "outage_v1",
+        "soc_kwh": 11.775772005589621,
+        "event": "node_arrival_model",
+        "elapsed_min": 29.19025532463119
+      },
+      {
+        "node": "outage_ac_slow",
+        "soc_kwh": 8.335021288686729,
+        "event": "station_arrival_model",
+        "elapsed_min": 54.234594703246124
+      },
+      {
+        "node": "outage_ac_slow",
+        "soc_kwh": 13.333333333333334,
+        "event": "station_departure_model",
+        "elapsed_min": 80.55948825981248
+      },
+      {
+        "node": "outage_v2",
+        "soc_kwh": 13.121969696969698,
+        "event": "node_arrival_model",
+        "elapsed_min": 82.09794979827402
+      },
+      {
+        "node": "outage_v3",
+        "soc_kwh": 9.542634701713672,
+        "event": "node_arrival_model",
+        "elapsed_min": 109.61878644442527
+      },
+      {
+        "node": "outage_v4",
+        "soc_kwh": 5.747436217155838,
+        "event": "node_arrival_model",
+        "elapsed_min": 140.54148066325877
+      },
+      {
+        "node": "outage_dc_fast",
+        "soc_kwh": 2.223259569863266,
+        "event": "station_arrival_model",
+        "elapsed_min": 171.0790702652268
+      },
+      {
+        "node": "outage_dc_fast",
+        "soc_kwh": 8.0,
+        "event": "station_departure_model",
+        "elapsed_min": 176.03056206248684
+      },
+      {
+        "node": "outage_v5",
+        "soc_kwh": 7.748912810244122,
+        "event": "node_arrival_model",
+        "elapsed_min": 178.2062752353685
+      },
+      {
+        "node": "outage_v6",
+        "soc_kwh": 5.067845642673568,
+        "event": "node_arrival_model",
+        "elapsed_min": 203.0132221532102
+      },
+      {
+        "node": "outage_depot",
+        "soc_kwh": 2.4192044816251332,
+        "event": "node_arrival_model",
+        "elapsed_min": 229.3024644464949
+      }
+    ],
+    "actions": [
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 17
+      },
+      {
+        "kind": "detour",
+        "station_index": 0,
+        "charge_level": 5,
+        "next_b": 19
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 14
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 8
+      },
+      {
+        "kind": "detour",
+        "station_index": 1,
+        "charge_level": 3,
+        "next_b": 11
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 7
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 3
+      }
+    ]
+  },
+  {
+    "scenario": "outage",
+    "variant": "dense_five",
+    "visits": [
+      {
+        "node": "outage_depot",
+        "soc_kwh": 16.0,
+        "event": "initial",
+        "elapsed_min": 0.0
+      },
+      {
+        "node": "outage_v1",
+        "soc_kwh": 11.775772005589621,
+        "event": "node_arrival_model",
+        "elapsed_min": 29.19025532463119
+      },
+      {
+        "node": "outage_v2",
+        "soc_kwh": 8.188812151934226,
+        "event": "node_arrival_model",
+        "elapsed_min": 55.298813399211404
+      },
+      {
+        "node": "outage_v3",
+        "soc_kwh": 4.609477156678199,
+        "event": "node_arrival_model",
+        "elapsed_min": 82.81965004536266
+      },
+      {
+        "node": "outage_dc_mid",
+        "soc_kwh": 4.18726686674483,
+        "event": "station_arrival_model",
+        "elapsed_min": 86.25975462613157
+      },
+      {
+        "node": "outage_dc_mid",
+        "soc_kwh": 13.333333333333334,
+        "event": "station_departure_model",
+        "elapsed_min": 95.78677347367245
+      },
+      {
+        "node": "outage_v4",
+        "soc_kwh": 9.887724849125316,
+        "event": "node_arrival_model",
+        "elapsed_min": 123.86106207504886
+      },
+      {
+        "node": "outage_v5",
+        "soc_kwh": 6.113056708712449,
+        "event": "node_arrival_model",
+        "elapsed_min": 156.5692030373093
+      },
+      {
+        "node": "outage_v6",
+        "soc_kwh": 3.431989541141895,
+        "event": "node_arrival_model",
+        "elapsed_min": 181.376149955151
+      },
+      {
+        "node": "outage_depot",
+        "soc_kwh": 0.7833483800934604,
+        "event": "node_arrival_model",
+        "elapsed_min": 207.6653922484357
+      }
+    ],
+    "actions": [
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 17
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 12
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 6
+      },
+      {
+        "kind": "detour",
+        "station_index": 3,
+        "charge_level": 5,
+        "next_b": 14
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 9
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 5
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 1
+      }
+    ]
+  },
+  {
+    "scenario": "outage",
+    "variant": "dc_mid_outage",
+    "visits": [
+      {
+        "node": "outage_depot",
+        "soc_kwh": 16.0,
+        "event": "initial",
+        "elapsed_min": 0.0
+      },
+      {
+        "node": "outage_v1",
+        "soc_kwh": 11.775772005589621,
+        "event": "node_arrival_model",
+        "elapsed_min": 29.19025532463119
+      },
+      {
+        "node": "outage_v2",
+        "soc_kwh": 8.188812151934226,
+        "event": "node_arrival_model",
+        "elapsed_min": 55.298813399211404
+      },
+      {
+        "node": "outage_v3",
+        "soc_kwh": 4.609477156678199,
+        "event": "node_arrival_model",
+        "elapsed_min": 82.81965004536266
+      },
+      {
+        "node": "outage_ac_near",
+        "soc_kwh": 0.8283960123710963,
+        "event": "station_arrival_model",
+        "elapsed_min": 113.62731834459464
+      },
+      {
+        "node": "outage_ac_near",
+        "soc_kwh": 5.333333333333333,
+        "event": "station_departure_model",
+        "elapsed_min": 125.91351103812801
+      },
+      {
+        "node": "outage_v4",
+        "soc_kwh": 5.144515151515151,
+        "event": "node_arrival_model",
+        "elapsed_min": 127.45197257658955
+      },
+      {
+        "node": "outage_dc_fast",
+        "soc_kwh": 1.620338504222579,
+        "event": "station_arrival_model",
+        "elapsed_min": 157.98956217855758
+      },
+      {
+        "node": "outage_dc_fast",
+        "soc_kwh": 8.0,
+        "event": "station_departure_model",
+        "elapsed_min": 163.4578434606525
+      },
+      {
+        "node": "outage_v5",
+        "soc_kwh": 7.748912810244122,
+        "event": "node_arrival_model",
+        "elapsed_min": 165.63355663353417
+      },
+      {
+        "node": "outage_v6",
+        "soc_kwh": 5.067845642673568,
+        "event": "node_arrival_model",
+        "elapsed_min": 190.44050355137585
+      },
+      {
+        "node": "outage_depot",
+        "soc_kwh": 2.4192044816251332,
+        "event": "node_arrival_model",
+        "elapsed_min": 216.72974584466056
+      }
+    ],
+    "actions": [
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 17
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 12
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 6
+      },
+      {
+        "kind": "detour",
+        "station_index": 2,
+        "charge_level": 2,
+        "next_b": 7
+      },
+      {
+        "kind": "detour",
+        "station_index": 1,
+        "charge_level": 3,
+        "next_b": 11
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 7
+      },
+      {
+        "kind": "direct",
+        "station_index": null,
+        "charge_level": null,
+        "next_b": 3
+      }
+    ]
+  }
+]

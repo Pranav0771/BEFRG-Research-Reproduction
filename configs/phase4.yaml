@@ -1,0 +1,41 @@
+# Phase 4 use cases. All geometry, loads, consumption, charger power and routes
+# are documented synthetic scenarios, NOT Montoya or OSM-derived measurements.
+seed: 20261028
+full_beam_limit: null           # No pruning => certified grid optimum if feasible
+quick_beam_limit: 180          # Optional heuristic shortcut, explicitly uncertified
+provenance: ours-scaled-down
+units:
+  distance: km
+  travel_speed: km/min
+  energy: kWh
+  route_time: minutes
+  vehicle_load: kg
+  degradation_penalty: equivalent minutes
+  temperature: degC
+scenarios:
+  last_mile:
+    battery_kwh: 10.24
+    empty_consumption_kwh_km: 0.11
+    veh_mass_kg: 520
+    speed_kmh: 30
+    courier_load_total_kg: 185
+    note: "Charging powers and DC acceptance are hypothetical; do not claim the specified three-wheeler supports DC charging."
+  coach:
+    battery_kwh: 220
+    empty_consumption_kwh_km: 0.92
+    veh_mass_kg: 12000
+    speed_kmh: 66
+    note: "Stops have zero deliveries; no passenger boarding/alighting dynamics."
+  truck:
+    battery_kwh: 420
+    empty_consumption_kwh_km: 1.04
+    veh_mass_kg: 16000
+    speed_kmh: 57
+    total_delivery_load_kg: 6100
+    note: "Linear load model not calibrated for commercial vehicles."
+  outage:
+    battery_kwh: 16
+    empty_consumption_kwh_km: 0.155
+    veh_mass_kg: 1100
+    speed_kmh: 39
+    note: "Nested candidate sets, deterministic outage; no charger queues."

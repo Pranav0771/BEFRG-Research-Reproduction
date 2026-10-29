@@ -1,0 +1,5 @@
+experiment,paper_reference,setting,metric,paper_value,paper_unit,paper_provenance,ours_value,ours_provenance,abs_diff,relative_diff_pct,trend_agreement,comparability
+E,Table 6a,gamma=2,RT,84.17,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+E,Table 6a,gamma=4,RT,80.62,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+E,Table 6a,gamma=8,RT,78.48,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+E,Table 6a,gamma=16,RT,77.75,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable

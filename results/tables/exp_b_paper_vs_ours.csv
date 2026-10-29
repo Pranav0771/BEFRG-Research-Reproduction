@@ -1,0 +1,7 @@
+experiment,paper_reference,setting,metric,paper_value,paper_unit,paper_provenance,ours_value,ours_provenance,abs_diff,relative_diff_pct,trend_agreement,comparability
+B,Table 4a,R=5,ET_no_memo,8,table says sec; text says ms,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+B,Table 4a,R=6,ET_no_memo,72,table says sec; text says ms,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+B,Table 4a,R=7,ET_no_memo,786,table says sec; text says ms,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+B,Table 4a,R=8,ET_no_memo,8435,table says sec; text says ms,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+B,Table 4a,R=9,ET_no_memo,100205,table says sec; text says ms,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+B,Table 4a,R=10,ET_no_memo,1220341,table says sec; text says ms,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable

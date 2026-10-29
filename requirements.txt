@@ -1,0 +1,3 @@
+# Install core scientific Python requirements and pytest via the package metadata.
+# Python 3.10+; pip install -r requirements.txt
+-e .[test]

@@ -1,0 +1,9 @@
+provenance,scenario,comparison,baseline,alternative,baseline_min,alternative_min,change_min,change_pct
+ours-scaled-down,last_mile,AC only versus mixed chargers,ac_only,mixed_ac_dc,357.961602,244.894296,-113.067306,-31.5864
+ours-scaled-down,last_mile,Cold-weather operation,mixed_ac_dc,cold_mixed,244.894296,347.584435,102.690139,41.9324
+ours-scaled-down,coach,Roadside charger closure,all_roadside,one_fast_closed,612.196274,634.811119,22.614845,3.6941
+ours-scaled-down,coach,Hot-weather operation,all_roadside,hot_weather,612.196274,637.280991,25.084717,4.0975
+ours-scaled-down,truck,Freight payload effect,empty_payload_control,loaded,780.14809,815.056516,34.908426,4.4746
+ours-scaled-down,truck,Cold-weather laden freight,loaded,cold_loaded,815.056516,913.492478,98.435962,12.0772
+ours-scaled-down,outage,Station-density improvement,sparse_one,dense_five,336.277749,207.665392,-128.612357,-38.2459
+ours-scaled-down,outage,High-power charger outage,dense_five,dc_mid_outage,207.665392,216.729746,9.064354,4.3649

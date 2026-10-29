@@ -1,0 +1,90 @@
+{
+  "source": "synthetic coordinates, synthetic energy and charging curves; no OSM",
+  "provenance": "ours-scaled-down",
+  "fixed_seed": 20261028,
+  "quick": true,
+  "beam_limit": 180,
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "stories": {
+    "last_mile": {
+      "key": "last_mile",
+      "name": "Indian urban electric cargo three-wheeler",
+      "story": "Long multi-drop city loop; compare AC-only and hypothetical DC-capable operation.",
+      "problem": null,
+      "curves_description": "Synthetic 3-segment charger curves (80%, 95%, 100% SoC)",
+      "seed": 20261028
+    },
+    "coach": {
+      "key": "coach",
+      "name": "Regional battery-electric coach",
+      "story": "Closed intercity loop with a few high-power roadside chargers; the stop sequence is fixed.",
+      "problem": null,
+      "curves_description": "Synthetic 3-segment charger curves (80%, 95%, 100% SoC)",
+      "seed": 20261028
+    },
+    "truck": {
+      "key": "truck",
+      "name": "Heavy-duty electric freight truck",
+      "story": "A large outbound payload is delivered progressively; charging choices are made en route.",
+      "problem": null,
+      "curves_description": "Synthetic 3-segment charger curves (80%, 95%, 100% SoC)",
+      "seed": 20261028
+    },
+    "outage": {
+      "key": "outage",
+      "name": "Peri-urban station-density and outage network",
+      "story": "Same fixed urban-peripheral delivery loop, nested station sets, and a one-station outage.",
+      "problem": null,
+      "curves_description": "Synthetic 3-segment charger curves (80%, 95%, 100% SoC)",
+      "seed": 20261028
+    }
+  },
+  "parameters": {
+    "seed": 20261028,
+    "full_beam_limit": null,
+    "quick_beam_limit": 180,
+    "provenance": "ours-scaled-down",
+    "units": {
+      "distance": "km",
+      "travel_speed": "km/min",
+      "energy": "kWh",
+      "route_time": "minutes",
+      "vehicle_load": "kg",
+      "degradation_penalty": "equivalent minutes",
+      "temperature": "degC"
+    },
+    "scenarios": {
+      "last_mile": {
+        "battery_kwh": 10.24,
+        "empty_consumption_kwh_km": 0.11,
+        "veh_mass_kg": 520,
+        "speed_kmh": 30,
+        "courier_load_total_kg": 185,
+        "note": "Charging powers and DC acceptance are hypothetical; do not claim the specified three-wheeler supports DC charging."
+      },
+      "coach": {
+        "battery_kwh": 220,
+        "empty_consumption_kwh_km": 0.92,
+        "veh_mass_kg": 12000,
+        "speed_kmh": 66,
+        "note": "Stops have zero deliveries; no passenger boarding/alighting dynamics."
+      },
+      "truck": {
+        "battery_kwh": 420,
+        "empty_consumption_kwh_km": 1.04,
+        "veh_mass_kg": 16000,
+        "speed_kmh": 57,
+        "total_delivery_load_kg": 6100,
+        "note": "Linear load model not calibrated for commercial vehicles."
+      },
+      "outage": {
+        "battery_kwh": 16,
+        "empty_consumption_kwh_km": 0.155,
+        "veh_mass_kg": 1100,
+        "speed_kmh": 39,
+        "note": "Nested candidate sets, deterministic outage; no charger queues."
+      }
+    }
+  }
+}

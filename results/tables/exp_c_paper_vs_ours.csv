@@ -1,0 +1,9 @@
+experiment,paper_reference,setting,metric,paper_value,paper_unit,paper_provenance,ours_value,ours_provenance,abs_diff,relative_diff_pct,trend_agreement,comparability
+C,Table 4b,R=15,RT,137,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+C,Table 4b,R=20,RT,181,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+C,Table 4b,R=25,RT,234,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+C,Table 4b,R=30,RT,291,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+C,Table 4b,R=35,RT,351,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+C,Table 4b,R=40,RT,415,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+C,Table 4b,R=45,RT,479,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+C,Table 4b,R=50,RT,531,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable

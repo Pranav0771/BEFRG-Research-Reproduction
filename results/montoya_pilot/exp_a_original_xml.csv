@@ -1,0 +1,6 @@
+experiment,provenance,dataset,customers,route_nodes_including_depot,stations,gamma,Gamma,paper_BERFG_h_Table2,route_hash,model_route_min,wall_s,cpu_s,detours,charged_kwh,final_physical_soc_kwh,physically_valid,physical_error_count,physical_error_examples,model_kwh_per_km_at_first_leg,ours_model_h
+A,[original-XML; independent-tour],tc1c320s38ct2,50,52,38,40,40,6.64,61255f5f1d7347a1,529.902377803,1.8688,1.86665,4,35.4403731,0.7852532,True,0,,0.13125,8.83171
+A,[original-XML; independent-tour],tc1c320s38ct2,70,72,38,40,40,9.87,e297107b898a3cea,701.469969331,2.64511,2.64329,7,51.9955366,0.5764385,False,1,Non-increasing physical charge at 356: 5.016382 -> 2.400000,0.13375,11.69117
+A,[original-XML; independent-tour],tc1c320s38ct2,90,92,38,40,40,13.89,53af856564f8e8f1,1043.922418757,3.69329,3.68963,8,81.542343,0.4391432,False,1,Non-increasing physical charge at 356: 4.842133 -> 2.400000,0.13625,17.39871
+A,[original-XML; independent-tour],tc1c320s38ct2,100,102,38,40,40,15.74,f08f4f92b62b514d,1134.556725145,3.64951,3.64629,9,90.1111826,0.4230054,False,1,Non-increasing physical charge at 356: 4.755009 -> 2.400000,0.1375,18.90928
+A,[original-XML; independent-tour],tc1c320s38ct2,150,152,38,40,40,23.49,1baeae51d1d49b49,1711.841237332,5.46396,5.45998,15,143.6471371,0.6736915,False,1,Non-increasing physical charge at 356: 4.319387 -> 2.400000,0.14375,28.53069

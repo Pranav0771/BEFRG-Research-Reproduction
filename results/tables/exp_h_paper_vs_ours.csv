@@ -1,0 +1,15 @@
+experiment,paper_reference,setting,metric,paper_value,paper_unit,paper_provenance,ours_value,ours_provenance,abs_diff,relative_diff_pct,trend_agreement,comparability
+H,Table 5b,SF_V=296,RT,6021,"min (table), seconds (text)",[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+H,Table 5b,SF_V=286,RT,6020,"min (table), seconds (text)",[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+H,Table 5b,SF_V=226,RT,6017,"min (table), seconds (text)",[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+H,Table 5b,SF_V=156,RT,6018,"min (table), seconds (text)",[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+H,Table 5b,SF_V=106,RT,6019,"min (table), seconds (text)",[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+H,Table 5b,SF_V=36,RT,6094,"min (table), seconds (text)",[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+H,Table 5b,SF_V=26,RT,6096,"min (table), seconds (text)",[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+H,Table 5b,SF_V=16,RT,6020,"min (table), seconds (text)",[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+H,Table 7b,Amsterdam_V=500,RT,2558,min (table),[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+H,Table 7b,Amsterdam_V=1000,RT,2730,min (table),[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+H,Table 7b,Amsterdam_V=1500,RT,2995,min (table),[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+H,Table 7b,Amsterdam_V=2000,RT,3567,min (table),[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+H,Table 7b,Amsterdam_V=2500,RT,4559,min (table),[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+H,Table 7b,Amsterdam_V=3000,RT,4320,min (table),[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable

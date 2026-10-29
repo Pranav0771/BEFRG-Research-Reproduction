@@ -1,0 +1,51 @@
+project: Mandal et al. 2025 BEFRG independent Phase 2 reproduction
+seed: 20251028
+source: synthetic-surrogate  # default; --full requires the original raw XML files
+synthetic:
+  customers: 28
+  stations: 8
+  veh_mass_kg: 1000.0
+  consumption_multiplier: 2.0   # OUR energy-stress assumption; not paper calibration
+  route_constructor: cheapest_insertion
+solver:
+  method: bottom_up
+  strict_positive: true
+  charging_levels: 8
+  residual_levels: 16
+  milp_time_limit_sec: 15
+  repetitions: 1
+experiments:
+  A:
+    route_customers: [3, 4, 5, 6]
+    charge_levels: 4
+    residual_levels: [4, 8, 16, 32]
+    stations: 3
+  B:
+    route_customers: [3, 4, 5, 6, 7]
+    stations: 3
+    charge_levels: 4
+    residual_levels: 8
+    max_calls: 100000
+  C:
+    route_customers: [8, 10, 12, 14, 16]
+    stations: 6
+  D:
+    route_customers: 22
+    station_counts: [2, 3, 4, 5, 6, 8]
+  E:
+    route_customers: 22
+    charging_levels: [2, 4, 8, 16]
+    residual_levels: 24
+    stations: 8
+  F:
+    route_customers: [20, 40, 80, 160, 320]
+    stations: 6
+    synthetic_full_set: 12
+  G:
+    route_customers: [6, 10, 14, 18, 22, 28]
+    stations: 8
+  H:
+    route_customers: 12
+    stations: 5
+    vehicle_counts: [500, 1000, 1500, 2000, 2500, 3000]
+    travel_horizon_min: 60

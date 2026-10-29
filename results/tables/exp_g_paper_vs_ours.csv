@@ -1,0 +1,17 @@
+experiment,paper_reference,setting,metric,paper_value,paper_unit,paper_provenance,ours_value,ours_provenance,abs_diff,relative_diff_pct,trend_agreement,comparability
+G,Table 7a,R=40,RT_DPC,415,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=80,RT_DPC,878,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=120,RT_DPC,1306,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=160,RT_DPC,1875,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=200,RT_DPC,2377,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=240,RT_DPC,2982,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=280,RT_DPC,3687,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=320,RT_DPC,4602,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=40,RT_FC,455,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=80,RT_FC,968,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=120,RT_FC,1442,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=160,RT_FC,2028,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=200,RT_FC,2623,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=240,RT_FC,3343,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=280,RT_FC,4111,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+G,Table 7a,R=320,RT_FC,5132,min,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable

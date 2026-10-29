@@ -1,0 +1,5 @@
+-r requirements.txt
+nbformat>=5.8
+nbclient>=0.8
+ipykernel>=6
+jupyterlab>=4

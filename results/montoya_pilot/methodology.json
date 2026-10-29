@@ -1,0 +1,70 @@
+{
+  "source": "Original Montoya et al. 2017 VRP-REP XML",
+  "dataset_sha256": {
+    "tc1c320s38ct2": "ebd88b7ed9bddc08f3d476e8236c73e85c3025b7fcb060f707532538466a67b7",
+    "tc2c320s38cf0": "ef7f84a81197389ffe0f6473c34d24444842a2849da69e434460999f1ad96854"
+  },
+  "provenance": "[original-XML; independent-tour]",
+  "route_method": "independent deterministic cheapest_insertion from befrg.route_init",
+  "tour_type": "prefix of a tour built for the entire 320-customer instance, then depot return",
+  "calibration": "unit demand per customer; veh_mass_kg=1000; theta=0.125/1000 kWh/(km kg); source speed/curve/energy normalization",
+  "distance": "Euclidean km from original XML coordinates",
+  "paper_tour_matched": false,
+  "paper_energy_calibration_matched": false,
+  "paper_runtime_hardware_matched": false,
+  "uncertainty": "Do NOT compute paper-vs-ours optimality gaps; experiments are not identical controlled trials",
+  "python": "3.13.5",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "paper_published_reference": {
+    "A_BERFG_h": {
+      "50": 6.64,
+      "70": 9.87,
+      "90": 13.89,
+      "100": 15.74,
+      "150": 23.49
+    },
+    "E_BERFG_h": {
+      "2": 84.17,
+      "4": 80.62,
+      "8": 78.48,
+      "16": 77.75
+    },
+    "G_FC_DPC_min": {
+      "40": [
+        455,
+        415
+      ],
+      "80": [
+        968,
+        878
+      ],
+      "120": [
+        1442,
+        1306
+      ],
+      "160": [
+        2028,
+        1875
+      ],
+      "200": [
+        2623,
+        2377
+      ],
+      "240": [
+        3343,
+        2982
+      ],
+      "280": [
+        4111,
+        3687
+      ],
+      "320": [
+        5132,
+        4602
+      ]
+    }
+  },
+  "masses": "customer unit mass=1kg; fixed total capacity treated as sufficient per paper upper-bound condition",
+  "uploaded_dataset_zip_sha256": "bbe7e924ad79670f12657cd0bed096ce396d157405363029cd422e8894ec64c8",
+  "all_xml_parsed": 120
+}

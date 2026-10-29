@@ -1,0 +1,3 @@
+experiment,dataset,provenance,customers,stations,gamma,Gamma,dp_objective_min,discrete_MILP_min,discrete_certified,continuous_MILP_min,continuous_certified,discrete_MILP_wall_s,continuous_MILP_wall_s,discrete_matches_DP,physically_valid,errors,station_ids
+A_small_MILP_validation,tc1c320s38ct2,[original-XML; independent-tour],6,6,8,12,84.442516839,84.44251683867931,True,84.44251683867931,True,0.02253,0.03678,True,True,,"324,337,322,354,340,332"
+A_small_MILP_validation,tc1c320s38ct2,[original-XML; independent-tour],10,6,8,12,167.796812248,167.79681224774177,True,155.32901110332512,True,0.34349,0.03856,True,True,,"324,337,322,354,345,340"

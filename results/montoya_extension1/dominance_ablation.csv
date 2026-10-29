@@ -1,0 +1,7 @@
+provenance,customers,stations,gamma,Gamma,dominance_pruning,objective_min,wall_s,labels_created,max_stage_labels_before_dominance,feasible,grid_certified
+[original-XML; independent-tour; our-model],10,38,16,16,False,145.550112533,2.961461,1355000,2148,True,True
+[original-XML; independent-tour; our-model],10,38,16,16,True,145.550112533,0.043864,20114,363,True,True
+[original-XML; independent-tour; our-model],20,38,16,16,False,289.332134779,11.693866,5167559,3171,True,True
+[original-XML; independent-tour; our-model],20,38,16,16,True,289.332134779,0.172323,74280,451,True,True
+[original-XML; independent-tour; our-model],40,38,16,16,False,471.826053965,28.826229,12235053,4032,True,True
+[original-XML; independent-tour; our-model],40,38,16,16,True,471.826053965,0.514539,223510,453,True,True

@@ -1,0 +1,24 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+.DS_Store
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+# Never commit externally downloaded research data, large local logs, or ephemeral reruns.
+data/raw/montoya/*
+!data/raw/montoya/.gitkeep
+data/raw/crawdad/*
+!data/raw/crawdad/.gitkeep
+data/raw/osm/*
+!data/raw/osm/.gitkeep
+results/recomputed_quick/
+results/recomputed_phase4_quick/
+results/phase3_quick/
+*.log

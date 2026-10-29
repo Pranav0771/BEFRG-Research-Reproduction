@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "befrg-reproduction"
+version = "0.6.0"
+description = "Independent BEFRG reproduction and extension research package (Phases 0–5)"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23", "scipy>=1.11", "matplotlib>=3.7", "PyYAML>=6", "psutil>=5.9"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+notebook = ["nbformat>=5.8", "nbclient>=0.8", "ipykernel>=6", "jupyterlab>=4"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["befrg*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

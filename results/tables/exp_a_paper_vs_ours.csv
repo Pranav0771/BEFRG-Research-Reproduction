@@ -1,0 +1,11 @@
+experiment,paper_reference,setting,metric,paper_value,paper_unit,paper_provenance,ours_value,ours_provenance,abs_diff,relative_diff_pct,trend_agreement,comparability
+A,Table 2,"R=50,gamma=40,Gamma=40",RT_MILP,6.09,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+A,Table 2,"R=70,gamma=40,Gamma=40",RT_MILP,8.48,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+A,Table 2,"R=90,gamma=40,Gamma=40",RT_MILP,11.76,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+A,Table 2,"R=100,gamma=40,Gamma=40",RT_MILP,13.47,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+A,Table 2,"R=150,gamma=40,Gamma=40",RT_MILP,20.5,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+A,Table 2,"R=50,gamma=40,Gamma=40",RT_BEFRG,6.64,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+A,Table 2,"R=70,gamma=40,Gamma=40",RT_BEFRG,9.87,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+A,Table 2,"R=90,gamma=40,Gamma=40",RT_BEFRG,13.89,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+A,Table 2,"R=100,gamma=40,Gamma=40",RT_BEFRG,15.74,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
+A,Table 2,"R=150,gamma=40,Gamma=40",RT_BEFRG,23.49,hr,[paper],,[ours-scaled-down],,,not evaluated,not comparable: original inputs/route/parameter calibration unavailable
